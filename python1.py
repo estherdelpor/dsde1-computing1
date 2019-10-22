@@ -1,5 +1,5 @@
 name = ' '
-while name != 'marta':
+while name != 'cris':
     print('please type your username with lowercase')
     name = input( )
 
