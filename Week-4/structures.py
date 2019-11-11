@@ -30,7 +30,7 @@ def part_reverse(the_list, beginning, end):
 # write a function that at the "index" of "the_list" inserts three times the
 # same value. For example if the_list = [0,1,2,3,4] and index = 3 the function
 # will return [0,1,2,3,3,3,4]. 
-def repeat_at_index(the_list, index):
+def repeat_at_index(the_list, index)
      the_list.insert(index, index)
      the_list.insert(index, index)
      return the_list

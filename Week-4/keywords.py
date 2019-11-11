@@ -17,7 +17,8 @@ with default values.
 
 def welcome_message(user_name = '', place = ''):
     if user_name != '' and place != '':
-        print('hello ' + user_name + ',  welcome to ' + place)
+        print('hello ' + user_name + ', welcome to ' + place)
+         welcome to ' + place)
 
     elif user_name != '':
         print('Hello and welcome')
@@ -44,3 +45,28 @@ def welcome_message(user_name = '', place = ''):
 # (return list of all modes if there is a tie between multiple values)
 # if avg_type='mean', return the mean of the list
 # if avg_type='median', return the median of this list
+
+
+def list_average(the_list, avg_type= 'mean'):
+    if avg_type == 'mean':
+        return sum(the_list) / len(the_list)
+    
+    elif avg_type == 'mode':
+
+   
+   
+   
+   
+   
+   
+   
+    elif avg_type == 'median':
+        len(the_list.sort())
+        if the_list == []:
+            return None
+        elif n % 2 != 0:
+             return len(the_list // 2 )
+        else: 
+            return len(the_list // 2 ) + 1
+            
+
