@@ -17,7 +17,7 @@ with default values.
 
 def welcome_message(user_name = '', place = ''):
     if user_name != '' and place != '':
-        print('hello' + user_name + ', and welcome to ' + place)
+        print('hello ' + user_name + ',  welcome to ' + place)
 
     elif user_name != '':
         print('Hello and welcome')
@@ -26,7 +26,7 @@ def welcome_message(user_name = '', place = ''):
         print('Hello and welcome to ' + place )
     
     else:
-        print('Hello, ' + user_name + 'welcome')
+        print('Hello ' + user_name + 'welcome')
    
     
 
